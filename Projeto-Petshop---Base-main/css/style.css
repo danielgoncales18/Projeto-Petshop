@@ -6,6 +6,20 @@
   --texto: #334155;
   --sombra: 0 8px 30px rgba(0, 0, 0, 0.2);
   --radius: 20px;
+ --gradientbory: (rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.91)),
+}
+
+@media (prefers-color-scheme: dark) {
+:root{
+--primario:#38bdf8;
+--secundaria: #fb923c;
+  --escuro: #020617;
+  --claro: #0f172a;
+  --texto: #e2e8f0;
+  --sombra: 0 8px 30px rgba(0, 0, 0, 0.5);
+  --radius: 20px;
+  --gradientbody: (rgba(79, 79, 79, 0.85), rgba(122, 122, 122, 0.91)),
+ }
 }
 
 * {
